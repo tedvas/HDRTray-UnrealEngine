@@ -21,6 +21,7 @@ UHDRCmd::ToggleWindowsHDREnabled(true /* OnlyPrimaryDisplay */);
 UHDRCmd::GetWindowsHDRStatus(true /* OnlyPrimaryDisplay */);
 
 For blueprints just search for SetWindowsHDREnabled, ToggleWindowsHDREnabled, and GetWindowsHDRStatus.
+
 <img width="490" height="467" alt="Blueprints" src="https://github.com/user-attachments/assets/bfd1921e-2632-496e-92d8-88ae5064eebd" />
 
 Original Readme

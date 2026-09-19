@@ -12,7 +12,7 @@ if (Target.Platform == UnrealTargetPlatform.Win64)
 
 To use this in C++ do this:
 
-"#include "HDRCmd.h""
+#include "HDRCmd.h"
 
 Then you have access to these functions:
 

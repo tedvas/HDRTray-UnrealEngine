@@ -1,3 +1,31 @@
+Unreal Engine Instructions
+==========================
+Add the HDRCmd.h and HDRCmd.cpp to your Source folder or HDRCmd.h to Source/Public and HDRCmd.cpp to Source/Private
+
+Add this to your .build.cs file:
+
+if (Target.Platform == UnrealTargetPlatform.Win64)
+{
+	PublicAdditionalLibraries.Add("mscms.lib");
+}
+
+
+To use this in C++ do this:
+
+"#include "HDRCmd.h""
+
+Then you have access to these functions:
+
+UHDRCmd::SetWindowsHDREnabled(true /* Enable HDR */, true /* Only Primary Display */);
+UHDRCmd::ToggleWindowsHDREnabled(true /* OnlyPrimaryDisplay */);
+UHDRCmd::GetWindowsHDRStatus(true /* OnlyPrimaryDisplay */);
+
+For blueprints just search for SetWindowsHDREnabled, ToggleWindowsHDREnabled, and GetWindowsHDRStatus.
+
+
+Original Readme
+===============
+
 HDRTray
 =======
 Windows Notification Area icon to show and change HDR status.

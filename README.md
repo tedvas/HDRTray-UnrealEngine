@@ -1,5 +1,7 @@
 Unreal Engine Instructions
 ==========================
+This only works on Windows, it will still compile on MacOS and Linux, it just won't do anything. It also doesn't do anything when running through wine/proton on Linux.
+
 Add the HDRCmd.h and HDRCmd.cpp to your Source folder or HDRCmd.h to Source/Public and HDRCmd.cpp to Source/Private
 
 Add this to your .build.cs file:

@@ -108,7 +108,7 @@ public:
 	UFUNCTION(BlueprintCallable, meta = (DisplayName = "Set Windows HDR Enabled"))
 	static EWindowsHDRStatus SetWindowsHDREnabled(bool NewEnabled, bool SetOnlyPrimaryDisplay = true);
 	
-	UFUNCTION(BlueprintCallable, meta = (DisplayName = "Set Windows HDR Enabled"))
+	UFUNCTION(BlueprintCallable, meta = (DisplayName = "Toggle Windows HDR Enabled"))
 	static EWindowsHDRStatus ToggleWindowsHDREnabled(bool SetOnlyPrimaryDisplay = true);
 	
 	UFUNCTION(BlueprintCallable, BlueprintPure, meta = (DisplayName = "Get Windows HDR Status"))
